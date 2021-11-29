@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <span class="heading" style="font-weight: 900;">Our Reviews</span>
+        <div class="card">
+            <div class="image-1">
+                <img src="pexels-pixabay-220453.jpg" id="person-image" height="150px" width="150px" alt="ni image">
+                <div id="author" class="name">Peter Jones</div>
+                <div id="job" class="intern">INTERN</div>
+                <p id="info">Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.</p>
+            </div>
+        </div>
+
+        <div class="button-container">
+            <button class="prev-btn" onclick="prevImage()">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="next-btn" onclick="nextImage()">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+
+        <button class="random-btn" onclick="randomImage()">
+            surprise me
+        </button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
